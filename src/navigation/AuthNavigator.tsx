@@ -1,13 +1,11 @@
 import React from 'react';
 import {NAVIGATION} from '../constants/index';
-import {Home, List} from '../screen/index';
+import {Home, List} from '@/screen/index';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {StackParamList} from './Navigator';
 
 const Stack = createNativeStackNavigator<StackParamList>();
-
-// const Stack = createNativeStackNavigator();
 
 export function AuthNavigator() {
   return (

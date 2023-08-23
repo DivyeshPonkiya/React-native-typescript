@@ -1,0 +1,28 @@
+export const theme = {
+  fonts: {
+    PoppinsBold: 'Poppins-Bold',
+    PoppinsLight: 'Poppins-Light',
+    PoppinsMedium: 'Poppins-Medium',
+    PoppinsRegular: 'Poppins-Regular',
+    PoppinsSemiBold: 'Poppins-SemiBold',
+  },
+  colors: {
+    white: '#ffffff',
+    whiteop40: 'rgba(255, 255, 255, 0.4)',
+    whiteop60: 'rgba(255, 255, 255, 0.6)',
+    blackop40: 'rgba(0,0,0,0.40)',
+    blackop80: 'rgba(0,0,0,0.80)',
+    transparent: 'rgba(0,0,0,0)',
+    logoColor: '#FDC20C',
+    Cultured: '#F5F7F9',
+    black: '#000000',
+    secondary: '#524F50',
+    PrussianBlue: '#023047',
+    Cultured10: '#F6F6F6',
+    LightSilver: '#D9D9D9',
+    green: '#34C759',
+    red: '#FF0000',
+    redop5: 'rgba(255, 0, 0, 0.5)',
+    placeHolder: '#8F8F8F',
+  },
+};
